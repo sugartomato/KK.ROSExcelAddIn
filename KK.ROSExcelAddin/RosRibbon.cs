@@ -98,7 +98,7 @@ namespace KK.ROSExcelAddin
                 // 验证选择的区域是不是单元格区域
                 try
                 {
-                    _selRng =(ExcelIP.Range)_xlApp.Selection;
+                    _selRng = (ExcelIP.Range)_xlApp.Selection;
                 }
                 catch (Exception ex)
                 {
@@ -137,7 +137,8 @@ namespace KK.ROSExcelAddin
                     _sb.Append(model.ToAddScriptText());
                 }
 
-               DHD.WinFormControls.TextPreview tv = new DHD.WinFormControls.TextPreview();
+
+                DHD.WinFormControls.TextPreview tv = new DHD.WinFormControls.TextPreview();
                 tv.PreviewText = _sb.ToString();
                 tv.Show();
 

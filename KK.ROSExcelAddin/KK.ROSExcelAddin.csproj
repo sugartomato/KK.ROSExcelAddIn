@@ -216,7 +216,7 @@
     <ManifestCertificateThumbprint>2CDB510670118FF3E627BAD0AC58E91BA4E1A442</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>true</SignAssembly>
+    <SignAssembly>false</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile>KK.ROSExcelAddIn.pfx</AssemblyOriginatorKeyFile>
