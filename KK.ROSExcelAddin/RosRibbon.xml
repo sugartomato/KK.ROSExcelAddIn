@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load">
+  <ribbon>
+    <tabs>
+      <tab id="TabKKROS" label="【ROS工具箱】">
+        <group id="GRP_ROS_MAIN"
+               label="DHCP">
+          <button id="BTN_ROS_TODHCPSCRIPT" size="large" imageMso="CreateMacro" label="生成DHCP脚本" description="将所选择的行生成DHCP添加脚本" onAction="OnClick_DHCPAbout"/>
+        
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
